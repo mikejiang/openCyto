@@ -30,7 +30,7 @@ jobs:
       RSPM: ${{ matrix.config.rspm }}
     
     steps:
-      - uses: mikejiang/cyto_build_action@v1
+      - uses: mikejiang/cyto_build_action@main
         with:
           r-ver: ${{ matrix.r }}
           http-user-agent: ${{ matrix.config.http-user-agent }}
